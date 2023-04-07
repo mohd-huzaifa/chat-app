@@ -1,0 +1,161 @@
+
+
+.chat-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: inline;
+    float: right;
+    width: 62%;
+    height:94vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .users{
+    height: 50px;
+    width: 50px;
+    border:2px solid #fafafa;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+
+  }
+  .chat-body {
+    height: 73vh;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .message {
+    /* float: left; */
+    display: flex;
+    direction: ltr;
+    position: relative;
+    left: 0;
+    margin-bottom: 10px;
+    /* border: 1px solid green; */
+  }
+  .incomingMsg{
+    display: flex;
+    direction:rtl;
+    position: relative;
+    right: 0;
+  }
+  .user{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+
+  }
+  
+  .message-text {
+    background-color: #f1f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+  }
+  .name{
+    height: 12px;
+    font-size: 7px;
+    justify-content: right;
+    padding: 2px;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .chat-footer {
+    position: fixed;
+    top: 94vh;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .chat-footer input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chat-footer button {
+    width: 18%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100vh;
+    width: 35%;
+    overflow-y: scroll;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+  }
+  
+  
+
+  .user-component {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-component img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+  }
+  /* footer{
+    margin: 0px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 5px;
+    position:fixed;
+    top: 100vh;
+  } */
+  
+  
+  
